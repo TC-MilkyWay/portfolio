@@ -1,6 +1,6 @@
 <?php
 $errors = '';
-$myemail = 'yourname@website.com';//<-----Put Your email address here.
+$myemail = 'yohanngille@yahoo.co.uk';
 if(empty($_POST['name'])  ||
    empty($_POST['email']) ||
    empty($_POST['message']))
@@ -30,4 +30,4 @@ mail($to,$email_subject,$email_body,$headers);
 //redirect to the 'thank you' page
 header('Location: contact-form-thank-you.html');
 }
-?>
+?> 

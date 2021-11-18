@@ -42,7 +42,7 @@ $(document).ready(function() {
     });
 
     var typed = new Typed(".typing-2", {
-        strings: ["Développeur", "Developpeur web", "Développeur web mobile", "Motivé"],
+        strings: ["Developpeur web", "Développeur web mobile"],
         typeSpeed: 100,
         backSpeed: 60,
         loop: true
